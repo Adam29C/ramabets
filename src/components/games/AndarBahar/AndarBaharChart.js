@@ -50,6 +50,7 @@ const Andar_Bahar_Chart = (props) => {
   };
 
   const getResponseData = async () => {
+
     const req = nameRejext(location.state.title);
     const res = await GetAllCharts(GET_JACKPOT_JODI_CHART, req);
     setgetData(res);

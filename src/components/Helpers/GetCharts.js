@@ -2,7 +2,10 @@ import { nameRejext } from "./StringRejex";
 import { fa_time } from "./getWeekDays";
 
 export const GetAllCharts = async (apiEndPOint, title) => {
+  console.log("title" ,title);
   const req = nameRejext(title);
+  console.log('====================================');
+  console.log('====================================');
   const res = await apiEndPOint({ name: req });
   if (res.status) {
     const convertedData = {

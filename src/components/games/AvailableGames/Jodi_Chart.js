@@ -23,6 +23,10 @@ import KalyanNight from "../../Charts/JodiCharts/KalyanNight";
 
 import TimeBazar from "../../Charts/JodiCharts/TimeBazar";
 import MainBazar from "../../Charts/JodiCharts/MainBazar";
+
+
+
+
 import { GetAllCharts } from "../../Helpers/GetCharts";
 
 
