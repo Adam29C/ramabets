@@ -4,7 +4,7 @@ const ShreeDay = ({ chartData }) => {
   return (
     <div>
       <div className="table-responsive">
-        <table className="table" border="collapse">
+        <table className="table fw-bold" border="collapse">
           <thead>
             <tr>
               <th className="ch">MON</th>
