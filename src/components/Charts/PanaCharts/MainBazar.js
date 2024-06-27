@@ -1107,6 +1107,7 @@ const ShreeDay = ({ chartData }) => {
           </div>
         </td>
       </tr>
+      
       <tr>
         <td className="cc" style={{ width: "13%" }}>
           <div

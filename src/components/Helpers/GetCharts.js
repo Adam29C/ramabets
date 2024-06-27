@@ -2,24 +2,20 @@ import { nameRejext } from "./StringRejex";
 import { fa_time } from "./getWeekDays";
 
 export const GetAllCharts = async (apiEndPOint, title) => {
-  console.log("title" ,title);
   const req = nameRejext(title);
-  console.log('====================================');
-  console.log('====================================');
+
   const res = await apiEndPOint({ name: req });
   if (res.status) {
     const convertedData = {
       data: [],
     };
-   
 
-    let aa  = res.data.sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
- 
+    let aa = res.data.sort(
+      (a, b) => new Date(a.startDate) - new Date(b.startDate)
+    );
+
     res.data.forEach((weekData) => {
-
-      const resultDates = aa.map(
-        (item) => new Date(item.resultDate)
-      );
+      const resultDates = aa.map((item) => new Date(item.resultDate));
 
       const week = {
         weekStartDay: fa_time(weekData.startDate),
@@ -30,6 +26,8 @@ export const GetAllCharts = async (apiEndPOint, title) => {
       let currentResultDate = "";
       let relatedData = [];
 
+
+      
       weekData.data.forEach((item) => {
         if (item.resultDate !== currentResultDate) {
           if (currentResultDate !== "") {
@@ -41,6 +39,8 @@ export const GetAllCharts = async (apiEndPOint, title) => {
           currentResultDate = item.resultDate;
           relatedData = [];
         }
+
+        console.log("item " ,item);
         relatedData.push(item);
       });
 
@@ -51,6 +51,8 @@ export const GetAllCharts = async (apiEndPOint, title) => {
 
       convertedData.data.push(week);
     });
+
+    console.log("chartData", convertedData);
 
     return convertedData;
   }
