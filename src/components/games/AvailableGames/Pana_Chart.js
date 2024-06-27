@@ -6,6 +6,8 @@ import Footer from "../../Pages/Footer/Footer";
 import { getWeekStartAndEndDates, fa_time } from "../../Helpers/getWeekDays";
 import { nameRejext } from "../../Helpers/StringRejex";
 
+import ShreeMorning from "../../Charts/PanaCharts/ShreeMorning";
+
 import ShreeDay from "../../Charts/PanaCharts/ShreeDay";
 import ShreeNight from "../../Charts/PanaCharts/ShreeNight";
 
@@ -107,8 +109,13 @@ const Pana_Chart = () => {
           <div className="table-responsive  text-center col-xl-8 col-lg-12 col-md-12 col-sm-12 ">
             {nameRejext(location.state.title) ===
             nameRejext("SHREE MORNING") ? (
+              <ShreeMorning chartData={getData.data} />
+            ) :
+            nameRejext(location.state.title) ===
+            nameRejext("SHREE DAY") ? (
               <ShreeDay chartData={getData.data} />
-            ) : nameRejext(location.state.title) ===
+            ) :
+             nameRejext(location.state.title) ===
               nameRejext("SHREE NIGHT") ? (
               <ShreeNight chartData={getData.data} />
             ) : nameRejext(location.state.title) ===
@@ -142,14 +149,15 @@ const Pana_Chart = () => {
             ) : nameRejext(location.state.title) === nameRejext("SRIDEVI") ? (
               <ShreeDevi chartData={getData.data} />
             ) : nameRejext(location.state.title) ===
-              nameRejext("SRIDEVINIGHT") ? (
+              nameRejext("sridevinight") ? (
               <ShreeDeviNight chartData={getData.data} />
             ) : nameRejext(location.state.title) ===
               nameRejext("supremenight") ? (
               <SupremNight chartData={getData.data} />
-            ) :nameRejext("supremeday") ? (
-              <SupremNight chartData={getData.data} />
             ) : (
+              // :nameRejext("supremeday") ? (
+              //   <SupremNight chartData={getData.data} />
+              // )
               ""
             )}
 

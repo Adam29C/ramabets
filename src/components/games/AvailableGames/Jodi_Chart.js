@@ -6,6 +6,9 @@ import Footer from "../../Pages/Footer/Footer";
 import { nameRejext } from "../../Helpers/StringRejex";
 import { getWeekStartAndEndDates, fa_time } from "../../Helpers/getWeekDays";
 
+
+import ShreeMorning from "../../Charts/JodiCharts/ShreeMorning";
+
 import ShreeDay from "../../Charts/JodiCharts/ShreeDay";
 import ShreeNight from "../../Charts/JodiCharts/ShreeNight";
 
@@ -24,20 +27,13 @@ import KalyanNight from "../../Charts/JodiCharts/KalyanNight";
 import TimeBazar from "../../Charts/JodiCharts/TimeBazar";
 import MainBazar from "../../Charts/JodiCharts/MainBazar";
 
-
-
-
 import { GetAllCharts } from "../../Helpers/GetCharts";
-
-
-
 
 const Pana_Chart = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
   const [getData, setgetData] = useState([]);
-
 
   const handleClick = () => {
     const targetElement = document.getElementById("scroll-down");
@@ -112,6 +108,9 @@ const Pana_Chart = () => {
           <div className="table-responsive  text-center col-xl-8 col-lg-12 col-md-12 col-sm-12 ">
             {nameRejext(location.state.title) ===
             nameRejext("SHREE MORNING") ? (
+              <ShreeMorning chartData={getData.data} />
+            ) : nameRejext(location.state.title) ===
+              nameRejext("SHREE day") ? (
               <ShreeDay chartData={getData.data} />
             ) : nameRejext(location.state.title) ===
               nameRejext("SHREE NIGHT") ? (
