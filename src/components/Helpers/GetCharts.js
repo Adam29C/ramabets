@@ -40,7 +40,6 @@ export const GetAllCharts = async (apiEndPOint, title) => {
           relatedData = [];
         }
 
-        console.log("item " ,item);
         relatedData.push(item);
       });
 
@@ -51,8 +50,6 @@ export const GetAllCharts = async (apiEndPOint, title) => {
 
       convertedData.data.push(week);
     });
-
-    console.log("chartData", convertedData);
 
     return convertedData;
   }
