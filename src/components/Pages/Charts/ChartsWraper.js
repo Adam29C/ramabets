@@ -34,13 +34,13 @@ const Charts = () => {
     <>
       <Navbar />
       <Jodi_Chart title="Jodi Chart" data={getChart} link="jodi" />
-      {/* <Pana_Chart title="Pana Chart" data={getChart} link="pana" />
+      <Pana_Chart title="Pana Chart" data={getChart} link="pana" />
       <Shree_Starline 
         title="Shree Starline"
         data={getStarline}
         link="starline"
       />
-      <Shree_Jackpot title="Shree Jackpot" data={getJackpot} link="jackpot" /> */}
+      <Shree_Jackpot title="Shree Jackpot" data={getJackpot} link="jackpot" />
       <Footer />
     </>
   );
