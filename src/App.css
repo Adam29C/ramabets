@@ -310,7 +310,7 @@ textarea {
     padding: 0 10px 10px;
     background: linear-gradient(145deg, #ffebcf, #fff);
     box-shadow: 20px 40px 60px #444343, -20px 40px 60px #ffeed4;
-    transition: 0.9s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
 
   #navbarSupportedContent {
