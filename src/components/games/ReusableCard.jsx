@@ -96,10 +96,6 @@ const Section4 = ({ GameData, title , showPana }) => {
                             ></i>
                           </h5>
                           <h3 className="font-700">{data.providerResult}</h3>
-                          {console.log(
-                            "showData(data.gameDetails)",
-                            showData(data.gameDetails)?.message
-                          )}
                           <h6
                             className="mb-1 batting_size"
                             style={{

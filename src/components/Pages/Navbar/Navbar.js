@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { downloadAPK } from "../../Helpers/DownloadAPK";
-import headerLog from "../../../images/khatri-white-logo.svg"
+import headerLog from "../../../images/0000.png"
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
   const collapseRef = useRef(null);
@@ -23,9 +23,11 @@ const Navbar = () => {
     };
   }, []);
 
+  
+
   return (
     <>
-      <div className="app-container">
+      <div className="app-container p-4">
         <div className="banner-section ">
           <div className="header-container">
             <nav className="navbar navbar-expand-lg">
