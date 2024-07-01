@@ -6,7 +6,6 @@ import Footer from "../../Pages/Footer/Footer";
 import { nameRejext } from "../../Helpers/StringRejex";
 import { getWeekStartAndEndDates, fa_time } from "../../Helpers/getWeekDays";
 
-
 import ShreeMorning from "../../Charts/JodiCharts/ShreeMorning";
 
 import ShreeDay from "../../Charts/JodiCharts/ShreeDay";
@@ -26,6 +25,9 @@ import KalyanNight from "../../Charts/JodiCharts/KalyanNight";
 
 import TimeBazar from "../../Charts/JodiCharts/TimeBazar";
 import MainBazar from "../../Charts/JodiCharts/MainBazar";
+
+import ShreeDevi from "../../Charts/JodiCharts/ShreeDevi";
+import ShreeDeviNight from "../../Charts/JodiCharts/ShreeDeviNight";
 
 import { GetAllCharts } from "../../Helpers/GetCharts";
 
@@ -109,8 +111,7 @@ const Pana_Chart = () => {
             {nameRejext(location.state.title) ===
             nameRejext("SHREE MORNING") ? (
               <ShreeMorning chartData={getData.data} />
-            ) : nameRejext(location.state.title) ===
-              nameRejext("SHREE day") ? (
+            ) : nameRejext(location.state.title) === nameRejext("SHREE day") ? (
               <ShreeDay chartData={getData.data} />
             ) : nameRejext(location.state.title) ===
               nameRejext("SHREE NIGHT") ? (
@@ -143,6 +144,11 @@ const Pana_Chart = () => {
             ) : nameRejext(location.state.title) ===
               nameRejext("MAIN BAZAR") ? (
               <MainBazar chartData={getData.data} />
+            ) : nameRejext(location.state.title) === nameRejext("SRIDEVI") ? (
+              <ShreeDevi chartData={getData.data} />
+            ) : nameRejext(location.state.title) ===
+              nameRejext("sridevinight") ? (
+              <ShreeDeviNight chartData={getData.data} />
             ) : (
               ""
             )}
