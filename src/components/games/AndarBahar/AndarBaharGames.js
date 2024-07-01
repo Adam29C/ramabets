@@ -22,17 +22,21 @@ const StartLine = () => {
     const weekday = [
       "Sunday",
       "Monday",
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "friday",
-      "saturday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
     ];
 
     if (data.length > 0) {
       const result = [];
       for (const item of data) {
-        if (weekday.includes(item.gameDay.toLowerCase())) {
+        if (
+          weekday
+            .map((day) => day.toLowerCase())
+            .includes(item.gameDay.toLowerCase())
+        ) {
           return item;
         }
       }
@@ -280,3 +284,36 @@ const StartLine = () => {
 };
 
 export default StartLine;
+
+// import { useState, useEffect } from "react";
+// import { GET_ALL_JACKPOT_GAME } from "../../service/admin.service";
+// import ReusableCard from "../ReusableCard";
+
+// const AvailableGames = () => {
+//   // const [ModalData, setModalData] = useState([]);
+//   const [AppUrl, setAppUrl] = useState("");
+//   const [getData, setgetData] = useState([]);
+
+//   const getResponseData = async () => {
+//     const res = await GET_ALL_JACKPOT_GAME();
+
+//     if (res.status) {
+//       setgetData(res.data);
+//       setAppUrl(res.appInfo);
+//     }
+//   };
+//   useEffect(() => {
+//     getResponseData();
+//   }, []);
+//   return (
+//     <div>
+//       <ReusableCard
+//         GameData={getData}
+//         title={"SHREE JACKPOT"}
+//         showPana={false}
+//       />
+//     </div>
+//   );
+// };
+
+// export default AvailableGames;
