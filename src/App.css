@@ -1,4 +1,4 @@
-.roboto-thin {
+/* .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -68,7 +68,12 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: italic;
-}
+} */
+ @import url("./components/assets/css/ChartDetails.css");
+ @import url("./components/assets/css/Herosection.css");
+ @import url("./components/assets/css/Section3.css");
+ @import url("./components/assets/css/Section4.css");
+ @import url("./components/assets/css/Wraper.css");
 
 * {
   box-sizing: border-box;
@@ -79,6 +84,8 @@
 }
 
 :root {
+  --color-black:#000;
+  --color-red:red;
   --color-primary: #191d31;
   --bg-primary: #fcf3e5;
   --bg-light: #edefef;

@@ -20,14 +20,9 @@ const ShreeDevi = ({ chartData }) => {
           <tbody>
             
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">01/01/2024 </span>
                   <span className="result_date">to</span>
@@ -36,13 +31,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">800</span>
                   <span className="cp pana-jodi">87</span>
@@ -51,13 +40,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">467</span>
                   <span className="cp pana-jodi">70</span>
@@ -66,13 +49,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">477</span>
                   <span className="cp pana-jodi">86</span>
@@ -81,13 +58,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">890</span>
                   <span className="cp pana-jodi">70</span>
@@ -96,13 +67,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">228</span>
                   <span className="cp pana-jodi">26</span>
@@ -111,13 +76,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">450</span>
                   <span className="cp pana-jodi">93</span>
@@ -126,13 +85,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">122</span>
                   <span className="cp pana-jodi">56</span>
@@ -141,14 +94,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">01/08/2024 </span>
                   <span className="result_date">to</span>
@@ -157,13 +105,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">448</span>
                   <span className="cp pana-jodi">61</span>
@@ -172,13 +114,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">668</span>
                   <span className="cp pana-jodi">04</span>
@@ -187,13 +123,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">147</span>
                   <span className="cp pana-jodi">22</span>
@@ -202,13 +132,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">488</span>
                   <span className="cp pana-jodi">01</span>
@@ -217,13 +141,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">119</span>
                   <span className="cp pana-jodi">18</span>
@@ -232,13 +150,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">257</span>
                   <span className="cp pana-jodi">40</span>
@@ -247,13 +159,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">699</span>
                   <span className="cp pana-jodi">41</span>
@@ -262,14 +168,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">01/15/2024 </span>
                   <span className="result_date">to</span>
@@ -278,13 +179,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">146</span>
                   <span className="cp pana-jodi">19</span>
@@ -293,13 +188,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">180</span>
                   <span className="cp pana-jodi">94</span>
@@ -308,13 +197,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">568</span>
                   <span className="cp pana-jodi">93</span>
@@ -323,13 +206,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">134</span>
                   <span className="cp pana-jodi">82</span>
@@ -338,13 +215,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">457</span>
                   <span className="cp pana-jodi">68</span>
@@ -353,13 +224,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">236</span>
                   <span className="cp pana-jodi">11</span>
@@ -368,13 +233,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">458</span>
                   <span className="cp pana-jodi">71</span>
@@ -383,14 +242,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">01/22/2024 </span>
                   <span className="result_date">to</span>
@@ -399,13 +253,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">266</span>
                   <span className="cp pana-jodi">47</span>
@@ -414,13 +262,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">134</span>
                   <span className="cp pana-jodi">85</span>
@@ -429,13 +271,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">448</span>
                   <span className="cp pana-jodi">65</span>
@@ -444,13 +280,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">478</span>
                   <span className="cp pana-jodi">98</span>
@@ -459,13 +289,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">***</span>
                   <span className="cp pana-jodi">**</span>
@@ -474,13 +298,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">129</span>
                   <span className="cp pana-jodi">21</span>
@@ -489,13 +307,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">346</span>
                   <span className="cp pana-jodi">39</span>
@@ -504,14 +316,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">01/29/2024 </span>
                   <span className="result_date">to</span>
@@ -520,13 +327,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">678</span>
                   <span className="cp pana-jodi">19</span>
@@ -535,13 +336,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">156</span>
                   <span className="cp pana-jodi">23</span>
@@ -550,13 +345,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">369</span>
                   <span className="cp pana-jodi">87</span>
@@ -565,13 +354,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">125</span>
                   <span className="cp pana-jodi">82</span>
@@ -580,13 +363,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">167</span>
                   <span className="cp pana-jodi">40</span>
@@ -595,13 +372,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">690</span>
                   <span className="cp pana-jodi">59</span>
@@ -610,13 +381,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">259</span>
                   <span className="cp pana-jodi">64</span>
@@ -625,14 +390,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">02/05/2024 </span>
                   <span className="result_date">to</span>
@@ -641,13 +401,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">338</span>
                   <span className="cp pana-jodi">44</span>
@@ -656,13 +410,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">279</span>
                   <span className="cp pana-jodi">88</span>
@@ -671,13 +419,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">367</span>
                   <span className="cp pana-jodi">60</span>
@@ -686,13 +428,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">334</span>
                   <span className="cp pana-jodi">08</span>
@@ -701,13 +437,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">459</span>
                   <span className="cp pana-jodi">83</span>
@@ -716,13 +446,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">660</span>
                   <span className="cp pana-jodi">22</span>
@@ -731,13 +455,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">356</span>
                   <span className="cp pana-jodi">48</span>
@@ -746,14 +464,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">02/12/2024 </span>
                   <span className="result_date">to</span>
@@ -762,13 +475,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">246</span>
                   <span className="cp pana-jodi">22</span>
@@ -777,13 +484,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">125</span>
                   <span className="cp pana-jodi">88</span>
@@ -792,13 +493,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">446</span>
                   <span className="cp pana-jodi">45</span>
@@ -807,13 +502,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">790</span>
                   <span className="cp pana-jodi">60</span>
@@ -822,13 +511,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">359</span>
                   <span className="cp pana-jodi">77</span>
@@ -837,13 +520,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">577</span>
                   <span className="cp pana-jodi">92</span>
@@ -852,13 +529,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">559</span>
                   <span className="cp pana-jodi">90</span>
@@ -867,14 +538,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">02/19/2024 </span>
                   <span className="result_date">to</span>
@@ -883,13 +549,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">789</span>
                   <span className="cp pana-jodi">48</span>
@@ -898,13 +558,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">600</span>
                   <span className="cp pana-jodi">60</span>
@@ -913,13 +567,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">357</span>
                   <span className="cp pana-jodi">51</span>
@@ -928,13 +576,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">169</span>
                   <span className="cp pana-jodi">65</span>
@@ -943,13 +585,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">179</span>
                   <span className="cp pana-jodi">79</span>
@@ -958,13 +594,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">788</span>
                   <span className="cp pana-jodi">33</span>
@@ -973,13 +603,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">246</span>
                   <span className="cp pana-jodi">26</span>
@@ -988,14 +612,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">02/26/2024 </span>
                   <span className="result_date">to</span>
@@ -1004,13 +623,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">255</span>
                   <span className="cp pana-jodi">27</span>
@@ -1019,13 +632,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">137</span>
                   <span className="cp pana-jodi">17</span>
@@ -1034,13 +641,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">260</span>
                   <span className="cp pana-jodi">80</span>
@@ -1049,13 +650,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">140</span>
                   <span className="cp pana-jodi">58</span>
@@ -1064,13 +659,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">267</span>
                   <span className="cp pana-jodi">58</span>
@@ -1079,13 +668,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">478</span>
                   <span className="cp pana-jodi">92</span>
@@ -1094,13 +677,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">290</span>
                   <span className="cp pana-jodi">15</span>
@@ -1109,14 +686,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">03/04/2024 </span>
                   <span className="result_date">to</span>
@@ -1125,13 +697,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">880</span>
                   <span className="cp pana-jodi">69</span>
@@ -1140,13 +706,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">479</span>
                   <span className="cp pana-jodi">00</span>
@@ -1155,13 +715,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">334</span>
                   <span className="cp pana-jodi">08</span>
@@ -1170,13 +724,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">579</span>
                   <span className="cp pana-jodi">19</span>
@@ -1185,13 +733,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">250</span>
                   <span className="cp pana-jodi">79</span>
@@ -1200,13 +742,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">128</span>
                   <span className="cp pana-jodi">15</span>
@@ -1215,13 +751,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">157</span>
                   <span className="cp pana-jodi">39</span>
@@ -1230,14 +760,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">03/11/2024 </span>
                   <span className="result_date">to</span>
@@ -1246,13 +771,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">578</span>
                   <span className="cp pana-jodi">07</span>
@@ -1261,13 +780,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">255</span>
                   <span className="cp pana-jodi">28</span>
@@ -1276,13 +789,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">127</span>
                   <span className="cp pana-jodi">09</span>
@@ -1291,13 +798,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">470</span>
                   <span className="cp pana-jodi">16</span>
@@ -1306,13 +807,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">557</span>
                   <span className="cp pana-jodi">74</span>
@@ -1321,13 +816,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">669</span>
                   <span className="cp pana-jodi">16</span>
@@ -1336,13 +825,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">589</span>
                   <span className="cp pana-jodi">28</span>
@@ -1351,14 +834,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">03/18/2024 </span>
                   <span className="result_date">to</span>
@@ -1367,13 +845,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">122</span>
                   <span className="cp pana-jodi">55</span>
@@ -1382,13 +854,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">455</span>
                   <span className="cp pana-jodi">48</span>
@@ -1397,13 +863,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">344</span>
                   <span className="cp pana-jodi">15</span>
@@ -1412,13 +872,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">800</span>
                   <span className="cp pana-jodi">81</span>
@@ -1427,13 +881,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">226</span>
                   <span className="cp pana-jodi">09</span>
@@ -1442,13 +890,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">677</span>
                   <span className="cp pana-jodi">05</span>
@@ -1457,13 +899,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">457</span>
                   <span className="cp pana-jodi">61</span>
@@ -1472,14 +908,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">03/25/2024 </span>
                   <span className="result_date">to</span>
@@ -1488,13 +919,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">***</span>
                   <span className="cp pana-jodi">**</span>
@@ -1503,13 +928,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">447</span>
                   <span className="cp pana-jodi">51</span>
@@ -1518,13 +937,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">156</span>
                   <span className="cp pana-jodi">27</span>
@@ -1533,13 +946,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">160</span>
                   <span className="cp pana-jodi">74</span>
@@ -1548,13 +955,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">167</span>
                   <span className="cp pana-jodi">49</span>
@@ -1563,13 +964,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">247</span>
                   <span className="cp pana-jodi">39</span>
@@ -1578,13 +973,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">467</span>
                   <span className="cp pana-jodi">78</span>
@@ -1593,14 +982,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">04/01/2024 </span>
                   <span className="result_date">to</span>
@@ -1609,13 +993,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">370</span>
                   <span className="cp pana-jodi">07</span>
@@ -1624,13 +1002,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">299</span>
                   <span className="cp pana-jodi">00</span>
@@ -1639,13 +1011,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">289</span>
                   <span className="cp pana-jodi">97</span>
@@ -1654,13 +1020,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">400</span>
                   <span className="cp pana-jodi">48</span>
@@ -1669,13 +1029,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">388</span>
                   <span className="cp pana-jodi">95</span>
@@ -1684,13 +1038,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">158</span>
                   <span className="cp pana-jodi">43</span>
@@ -1699,13 +1047,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">236</span>
                   <span className="cp pana-jodi">12</span>
@@ -1714,14 +1056,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">04/08/2024 </span>
                   <span className="result_date">to</span>
@@ -1730,13 +1067,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">334</span>
                   <span className="cp pana-jodi">07</span>
@@ -1745,13 +1076,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">112</span>
                   <span className="cp pana-jodi">44</span>
@@ -1760,13 +1085,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">500</span>
                   <span className="cp pana-jodi">56</span>
@@ -1775,13 +1094,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">990</span>
                   <span className="cp pana-jodi">80</span>
@@ -1790,13 +1103,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">289</span>
                   <span className="cp pana-jodi">90</span>
@@ -1805,13 +1112,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">260</span>
                   <span className="cp pana-jodi">81</span>
@@ -1820,13 +1121,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">689</span>
                   <span className="cp pana-jodi">35</span>
@@ -1835,14 +1130,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">04/15/2024 </span>
                   <span className="result_date">to</span>
@@ -1851,13 +1141,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">180</span>
                   <span className="cp pana-jodi">97</span>
@@ -1866,13 +1150,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">499</span>
                   <span className="cp pana-jodi">21</span>
@@ -1881,13 +1159,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">135</span>
                   <span className="cp pana-jodi">94</span>
@@ -1896,13 +1168,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">236</span>
                   <span className="cp pana-jodi">14</span>
@@ -1911,13 +1177,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">139</span>
                   <span className="cp pana-jodi">36</span>
@@ -1926,13 +1186,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">158</span>
                   <span className="cp pana-jodi">41</span>
@@ -1941,13 +1195,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">567</span>
                   <span className="cp pana-jodi">83</span>
@@ -1956,14 +1204,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">04/22/2024 </span>
                   <span className="result_date">to</span>
@@ -1972,13 +1215,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">138</span>
                   <span className="cp pana-jodi">24</span>
@@ -1987,13 +1224,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">566</span>
                   <span className="cp pana-jodi">73</span>
@@ -2002,13 +1233,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">269</span>
                   <span className="cp pana-jodi">78</span>
@@ -2017,13 +1242,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">369</span>
                   <span className="cp pana-jodi">86</span>
@@ -2032,13 +1251,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">168</span>
                   <span className="cp pana-jodi">55</span>
@@ -2047,13 +1260,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">137</span>
                   <span className="cp pana-jodi">14</span>
@@ -2062,13 +1269,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">169</span>
                   <span className="cp pana-jodi">60</span>
@@ -2077,14 +1278,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">04/29/2024 </span>
                   <span className="result_date">to</span>
@@ -2093,13 +1289,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">140</span>
                   <span className="cp pana-jodi">55</span>
@@ -2108,13 +1298,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">156</span>
                   <span className="cp pana-jodi">21</span>
@@ -2123,13 +1307,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">679</span>
                   <span className="cp pana-jodi">20</span>
@@ -2138,13 +1316,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">125</span>
                   <span className="cp pana-jodi">85</span>
@@ -2153,13 +1325,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">490</span>
                   <span className="cp pana-jodi">35</span>
@@ -2168,13 +1334,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">579</span>
                   <span className="cp pana-jodi">14</span>
@@ -2183,13 +1343,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">128</span>
                   <span className="cp pana-jodi">13</span>
@@ -2198,14 +1352,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">05/06/2024 </span>
                   <span className="result_date">to</span>
@@ -2214,13 +1363,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">457</span>
                   <span className="cp pana-jodi">64</span>
@@ -2229,13 +1372,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">230</span>
                   <span className="cp pana-jodi">57</span>
@@ -2244,13 +1381,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">679</span>
                   <span className="cp pana-jodi">23</span>
@@ -2259,13 +1390,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">258</span>
                   <span className="cp pana-jodi">51</span>
@@ -2274,13 +1399,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">138</span>
                   <span className="cp pana-jodi">22</span>
@@ -2289,13 +1408,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">128</span>
                   <span className="cp pana-jodi">17</span>
@@ -2304,13 +1417,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">990</span>
                   <span className="cp pana-jodi">84</span>
@@ -2319,14 +1426,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">05/13/2024 </span>
                   <span className="result_date">to</span>
@@ -2335,13 +1437,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">259</span>
                   <span className="cp pana-jodi">61</span>
@@ -2350,13 +1446,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">290</span>
                   <span className="cp pana-jodi">16</span>
@@ -2365,13 +1455,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">440</span>
                   <span className="cp pana-jodi">80</span>
@@ -2380,13 +1464,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">239</span>
                   <span className="cp pana-jodi">44</span>
@@ -2395,13 +1473,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">479</span>
                   <span className="cp pana-jodi">07</span>
@@ -2410,13 +1482,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">127</span>
                   <span className="cp pana-jodi">01</span>
@@ -2425,13 +1491,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">270</span>
                   <span className="cp pana-jodi">93</span>
@@ -2440,14 +1500,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">05/20/2024 </span>
                   <span className="result_date">to</span>
@@ -2456,13 +1511,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">450</span>
                   <span className="cp pana-jodi">98</span>
@@ -2471,13 +1520,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">340</span>
                   <span className="cp pana-jodi">77</span>
@@ -2486,13 +1529,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">458</span>
                   <span className="cp pana-jodi">72</span>
@@ -2501,13 +1538,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">347</span>
                   <span className="cp pana-jodi">41</span>
@@ -2516,13 +1547,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">667</span>
                   <span className="cp pana-jodi">90</span>
@@ -2531,13 +1556,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">244</span>
                   <span className="cp pana-jodi">07</span>
@@ -2546,13 +1565,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">257</span>
                   <span className="cp pana-jodi">47</span>
@@ -2561,14 +1574,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">05/27/2024 </span>
                   <span className="result_date">to</span>
@@ -2577,13 +1585,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">800</span>
                   <span className="cp pana-jodi">89</span>
@@ -2592,13 +1594,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">446</span>
                   <span className="cp pana-jodi">41</span>
@@ -2607,13 +1603,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">136</span>
                   <span className="cp pana-jodi">02</span>
@@ -2622,13 +1612,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">257</span>
                   <span className="cp pana-jodi">45</span>
@@ -2637,13 +1621,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">369</span>
                   <span className="cp pana-jodi">88</span>
@@ -2652,13 +1630,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">166</span>
                   <span className="cp pana-jodi">35</span>
@@ -2667,13 +1639,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">789</span>
                   <span className="cp pana-jodi">40</span>
@@ -2682,14 +1648,9 @@ const ShreeDevi = ({ chartData }) => {
               </td>
             </tr>
             <tr>
-              <td className="cc" style={{ width: "13%" }}>
+              <td className="cc td-width-13">
                 <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
+                className="pana-chart-main"
                 >
                   <span className="result_date">06/03/2024 </span>
                   <span className="result_date">to</span>
@@ -2698,13 +1659,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">266</span>
                   <span className="cp pana-jodi">45</span>
@@ -2713,13 +1668,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">150</span>
                   <span className="cp pana-jodi">62</span>
@@ -2728,13 +1677,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">259</span>
                   <span className="cp pana-jodi">60</span>
@@ -2743,13 +1686,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">580</span>
                   <span className="cp pana-jodi">35</span>
@@ -2758,13 +1695,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "black",
-                  }}
+               className="kalyan-chart-number-black"
                 >
                   <span className="cp pana">358</span>
                   <span className="cp pana-jodi">62</span>
@@ -2773,13 +1704,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">578</span>
                   <span className="cp pana-jodi">00</span>
@@ -2788,13 +1713,7 @@ const ShreeDevi = ({ chartData }) => {
               </td>
               <td className="cc">
                 <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color: "red",
-                  }}
+               className="kalyan-chart-number-red"
                 >
                   <span className="cp pana">269</span>
                   <span className="cp pana-jodi">72</span>
@@ -2806,14 +1725,9 @@ const ShreeDevi = ({ chartData }) => {
             {chartData &&
               chartData.map((item1) => (
                 <tr key={item1.id}>
-                  <td className="cc" style={{ width: "13%" }}>
+                  <td className="cc td-width-13">
                     <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        flexDirection: "column",
-                        alignItems: "center",
-                      }}
+               className="pana-chart-main"
                     >
                       <span className="result_date">{item1.weekStartDay} </span>
                       <span className="result_date">to</span>
@@ -2823,13 +1737,7 @@ const ShreeDevi = ({ chartData }) => {
                   {item1.data.map((nestedItem) => (
                     <td key={nestedItem.id} className="cc">
                       <div
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          color: "black",
-                        }}
+                     className="kalyan-chart-number-black"
                       >
                         <span className="cp">
                           {nestedItem.relatedData[0] &&

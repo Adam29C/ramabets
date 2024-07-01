@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Wraper from "./components/Wraper";
 import "./App.css";
+
 import Jodi_Chart from "./components/games/AvailableGames/Jodi_Chart";
 import Pana_Chart from "./components/games/AvailableGames/Pana_Chart";
 import Charts from "./components/Pages/Charts/ChartsWraper";

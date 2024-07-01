@@ -23,15 +23,7 @@ const ShreeDevi = ({ chartData }) => {
                 <tr key={item1.id}>
                   {item1.data.map((nestedItem) => (
                     <td key={nestedItem.id} className="cc">
-                      <div
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          color: "black",
-                        }}
-                      >
+                      <div className="kalyan-chart-number-black">
                         <span className="cp">
                           {nestedItem.relatedData[0] &&
                             nestedItem.relatedData[0].winningDigitFamily}
