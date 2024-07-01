@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ba0911.css",
-    "main.js": "/static/js/main.718c2438.js",
+    "main.js": "/static/js/main.1ae46484.js",
     "static/media/gamblingtherapy.b.svg": "/static/media/gamblingtherapy.b.2f0ab1b27c53d91952c977c909ec295e.svg",
     "static/media/gambleaware.81280be1.svg": "/static/media/gambleaware.81280be1.66399a52574c1b1946b8432ca856b5fc.svg",
     "index.html": "/index.html",
@@ -11,10 +11,10 @@
     "static/media/18.svg": "/static/media/18.5d6745e4561d398893b23eda2fc314f9.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.c0ba0911.css.map": "/static/css/main.c0ba0911.css.map",
-    "main.718c2438.js.map": "/static/js/main.718c2438.js.map"
+    "main.1ae46484.js.map": "/static/js/main.1ae46484.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ba0911.css",
-    "static/js/main.718c2438.js"
+    "static/js/main.1ae46484.js"
   ]
 }
