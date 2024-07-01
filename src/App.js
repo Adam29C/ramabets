@@ -8,6 +8,7 @@ import Charts from "./components/Pages/Charts/ChartsWraper";
 import StartLineGames from "./components/games/StarLine/StartLineGames";
 import AndarBaharChart from "./components/games/AndarBahar/AndarBaharChart";
 import TermsCondition from "./components/Pages/TermsCondition/TermsCondition";
+import AboutGames from "./components/Pages/About/AboutGames";
 const App = () => {
   return (
     <>
@@ -20,6 +21,8 @@ const App = () => {
         <Route path="/pana-chart/:title/:Chart" element={<Pana_Chart />} />
         <Route path="/jodi-chart/:title/:Chart" element={<Jodi_Chart />} />
         <Route path="/terms-conditions" element={<TermsCondition />} />
+        <Route path="/how-to-play" element={<AboutGames />} />
+
       </Routes>
     </Router>
     </>

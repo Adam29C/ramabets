@@ -95,9 +95,13 @@ body {
 }
 
 .nav-link {
-  font-size: 1.425rem !important;
+  font-size: 1rem !important;
+  color: #ffffff;
 }
 
+.navbar-nav .nav-link.active{
+  color: #ffffff;
+}
 /* Adjust styles for specific elements if needed */
 .card {
   width: 100%;
@@ -297,12 +301,19 @@ textarea {
 }
 
 .download-btn button {
-  background-color: #191d31;
+  /* background-color: #191d31;
   border-radius: 30px;
   color: #f8fdfe;
   padding: 16px 30px;
+  text-decoration: none; */
+  background: none;
+  border-radius: 30px;
+  color: #f8fdfe;
+  padding: 8px 30px;
   text-decoration: none;
+  border: 1px solid white;
 }
+
 
 @media (max-width: 768px) {
   #navbarSupportedContent {
@@ -526,3 +537,33 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   align-items: center;
   justify-content: space-between;
 }
+
+
+
+/* wright new css */
+.header-container{
+  /* border: 5px solid black; */
+
+    position: relative;
+    background-image: url("./images/navbar-svg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+
+  
+}
+
+/* .banner-section {
+  background-image: url(https://mama567.com/assets/Section%201/Rectangle%201.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+} */
+
+.header-content-main{
+  margin-bottom: 30px;
+}
+
+
+/* wright new css */
