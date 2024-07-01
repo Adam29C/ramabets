@@ -3,8 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import {
   GET_ALL_GAMESLIST,
-  GET_ALL_JACKPOT_GAME,
-  GET_ALL_STARTLINE_GAMES,
+  GET_ALL_JACKPOT_GAME_CHART,
+  GET_ALL_STARTLINE_GAMES_CHART,
 } from "../../service/admin.service";
 import Jodi_Chart from "../Charts/JodiChart";
 import Pana_Chart from "../Charts/PanaChart";
@@ -20,10 +20,10 @@ const Charts = () => {
     const res = await GET_ALL_GAMESLIST();
     setgetChartData(res.data);
 
-    const res1 = await GET_ALL_STARTLINE_GAMES();
+    const res1 = await GET_ALL_STARTLINE_GAMES_CHART();
     setgetStarlineData(res1.data);
 
-    const res2 = await GET_ALL_JACKPOT_GAME();
+    const res2 = await GET_ALL_JACKPOT_GAME_CHART();
     setgetJackpotData(res2.data);
   };
   useEffect(() => {
