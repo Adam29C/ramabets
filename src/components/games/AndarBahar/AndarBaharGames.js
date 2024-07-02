@@ -94,7 +94,7 @@ const StartLine = () => {
                                   ? "#11305c"
                                   : getmsg == "Betting is running for open"
                                   ? "#37a148"
-                                  : "#d65f78",
+                                  : "#4BB543",
                             }}
                           >
                             {getmsg}

@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { downloadAPK } from "../../Helpers/DownloadAPK";
+import headerLog from "../../../images/0000.png"
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
   const collapseRef = useRef(null);
@@ -22,13 +23,15 @@ const Navbar = () => {
     };
   }, []);
 
+  
+
   return (
     <>
       <div className="app-container">
         <div className="banner-section ">
           <div className="header-container">
             <nav className="navbar navbar-expand-lg">
-              <div className="container-fluid">
+              <div className="container-fluid header-content-main">
                 <Logo />
                 <button
                   class="navbar-toggler navbar-toggler-btn"
@@ -73,11 +76,12 @@ const Navbar = () => {
 const Logo = () => {
   return (
     <Link className="nav-link  active" aria-current="page" to="/">
+      
       <img
         className="logo_navbar"
-        src="/images/0000.png"
+        src={headerLog}
         alt="Logo"
-        style={{ width: "10rem", padding: "8px" }}
+        style={{ width: "8rem", padding: "0px" }}
       />
     </Link>
   );
@@ -94,6 +98,11 @@ const NavigationLinks = () => {
       <li className="nav-item">
         <Link className="nav-link" to="/charts">
           Charts
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/how-to-play">
+        How To Play
         </Link>
       </li>
       <li className="nav-item">

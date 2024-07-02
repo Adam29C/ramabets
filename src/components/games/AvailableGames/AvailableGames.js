@@ -294,6 +294,7 @@ const AvailableGames = () => {
   useEffect(() => {
     getResponseData();
   }, []);
+  
   return (
     <div>
       <ReusableCard  GameData={getData} title="AVAILABLE GAMES" showPana={true}/>

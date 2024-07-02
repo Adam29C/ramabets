@@ -96,10 +96,6 @@ const Section4 = ({ GameData, title , showPana }) => {
                             ></i>
                           </h5>
                           <h3 className="font-700">{data.providerResult}</h3>
-                          {console.log(
-                            "showData(data.gameDetails)",
-                            showData(data.gameDetails)?.message
-                          )}
                           <h6
                             className="mb-1 batting_size"
                             style={{
@@ -113,7 +109,7 @@ const Section4 = ({ GameData, title , showPana }) => {
                                   : showData(data.gameDetails)?.message ===
                                     "Betting is running for open"
                                   ? "#37a148"
-                                  : "#d65f78",
+                                  : "#4BB543",
                             }}
                           >
                             {showData(data.gameDetails)?.message}
