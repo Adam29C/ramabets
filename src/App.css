@@ -85,6 +85,9 @@
 
 :root {
   --color-black:#000;
+  --other-color:#535151;
+  --color-open:#37a148;
+  --color-close:#11305c;
   --color-red:red;
   --color-primary: #191d31;
   --bg-primary: #fcf3e5;
@@ -92,6 +95,7 @@
   --color-orange: #11305c;
   --light-black: #acaebb;
   transition: --vh 0.3s ease;
+
 }
 
 html,
@@ -106,6 +110,36 @@ body {
   color: #ffffff;
 }
 
+.ml-10px{
+  margin-left: 10px;
+}
+
+.mt-10px{
+  margin-top: 10px;
+}
+.h1-fw-700{
+  font-weight: 700;
+}
+.betting-closed{
+  color:var(--color-close);
+}
+
+.close-for-today{
+  color: var(--color-red);
+}
+.betting-open{
+  color: var(--color-open);
+
+}
+.default-message{
+  color: var(--other-color);
+}
+.text-align-center-css{
+  text-align: center;
+}
+.color-dark-gray{
+  color: rgb(51, 51, 51);
+}
 .navbar-nav .nav-link.active{
   color: #ffffff;
 }
@@ -572,5 +606,45 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   margin-bottom: 30px;
 }
 
+.andar-bahar-chart-main{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
 
+.a-tag-css{
+  text-decoration: none;
+}
+
+/* style={{
+  maxWidth: "100%",
+  marginLeft: "auto",
+  marginRight: "auto",
+  paddingLeft: "calc(var(--bs-gutter-x)* .5)",
+  paddingRight: "calc(var(--bs-gutter-x)* .5)",
+}} */
+
+.hero-section-container{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  padding-right: calc(var(--bs-gutter-x)* .5);
+}
+
+.margin-bottom-0px{
+margin-bottom: 0;
+}
+.font-size-2rem{
+  font-size: 2rem;
+}
+
+.contact-btn-backgcolor{
+  background-color: rgb(37, 211, 102);
+}
+
+.span-tag-color{
+  color: rgb(222, 223, 223);
+}
 /* wright new css */

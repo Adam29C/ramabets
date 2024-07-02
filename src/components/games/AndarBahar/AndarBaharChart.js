@@ -107,9 +107,9 @@ const Andar_Bahar_Chart = (props) => {
     <>
       <div id="scroll-up"></div>
       <Navbar />
-      <div className="pt-110" style={{ textAlign: "center" }}>
+      <div className="pt-110 text-align-center-css" >
         <h2>
-          <strong style={{ color: "rgb(51, 51, 51)" }}>
+          <strong className="color-dark-gray">
             Shree Jackpot &nbsp;
             {location.state.title}&nbsp; Chart
           </strong>
@@ -120,20 +120,11 @@ const Andar_Bahar_Chart = (props) => {
         </p>
       </div>
       <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          margin: "2rem",
-        }}
+      className="andar-bahar-chart-main"
+  
       ></div>
       <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          margin: "2rem",
-        }}
+       className="andar-bahar-chart-main"
       >
         <button
           className=" btn btn-primary rounded-pill btn-scroll"

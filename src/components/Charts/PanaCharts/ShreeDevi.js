@@ -4440,7 +4440,7 @@ const ShreeDevi = ({ chartData }) => {
                   {item1.data.map((nestedItem) => (
                     <td key={nestedItem.id} className="cc">
                       <div
-                        className="pana-chart-main"
+                     
                         className="kalyan-chart-number-black"
                       >
                         <span className="cp">

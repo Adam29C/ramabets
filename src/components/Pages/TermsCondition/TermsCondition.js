@@ -28,18 +28,18 @@ const TermsCondition = () => {
           <h1>Withdraw Information</h1>
           <ul>
             <li>
-              <span style={{ color: "rgb(222, 223, 223)" }}>●</span>
+              <span className="span-tag-color">●</span>
               <p>
                 If Users Entered Wrong Bank Details Ramabets Is Not
                 Responsible.
               </p>
             </li>
             <li>
-              <span style={{ color: "rgb(222, 223, 223)" }}>●</span>
+              <span className="span-tag-color">●</span>
               <p>Before Requesting Withdraw Re-check Your Bank Details.</p>
             </li>
             <li>
-              <span style={{ color: "rgb(222, 223, 223)" }}>●</span>
+              <span className="span-tag-color">●</span>
               <p>
                 After Withdraw Request If There Is No Vaild Wallet Balance The
                 Request Will Be Auto Declined.

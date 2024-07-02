@@ -30,8 +30,8 @@ const GameRateSection = () => {
           {getData.map((items, index) => (
             <div key={index} className="col-12 col-sm-12 col-lg-12 col-xl-4">
               <div
-                style={{ marginTop: "10px" }}
-                className="border-card text-center"
+                // style={{ marginTop: "10px" }}
+                className="border-card text-center mt-10px"
               >
                 <h4 className="primary-color">{items.gameName}</h4>
                 <h4 className="font-400"> 1 RS KA {items.gamePrice}</h4>

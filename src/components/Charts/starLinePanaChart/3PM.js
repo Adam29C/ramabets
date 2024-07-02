@@ -1883,13 +1883,7 @@ const ShreeDay = ({ chartData }) => {
                   {item1.data.map((nestedItem) => (
                     <td key={nestedItem.id} className="cc">
                       <div
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          color: "black",
-                        }}
+                     className="kalyan-chart-number-black"
                       >
                         <span className="cp">
                           {nestedItem.relatedData[0] &&

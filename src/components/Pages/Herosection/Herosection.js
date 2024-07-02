@@ -47,13 +47,13 @@ const Section2 = () => {
                           isIPhoneXR ? "d-flex flex-column" : ""
                         }`}
                       >
-                        <h1 style={{ fontWeight: 700 }}>Play Games</h1>
-                        <h1 style={{ fontWeight: 700 }}>Win Money On&nbsp;</h1>
-                        <h1 style={{ fontWeight: 700 }}>
+                        <h1 className="h1-fw-700" >Play Games</h1>
+                        <h1 className="h1-fw-700">Win Money On&nbsp;</h1>
+                        <h1 className="h1-fw-700" >
                           RAMA
                           <span
-                            className="primary-color"
-                            style={{ fontWeight: 700 }}
+                            className="primary-color h1-fw-700"
+                        
                           >
                             {" "}
                             BETS
@@ -90,24 +90,24 @@ const Section2 = () => {
         </div>
       </div>
       <div
-        className="contact-container"
-        style={{
-          maxWidth: "100%",
-          marginLeft: "auto",
-          marginRight: "auto",
-          paddingLeft: "calc(var(--bs-gutter-x)* .5)",
-          paddingRight: "calc(var(--bs-gutter-x)* .5)",
-        }}
+        className="contact-container hero-section-container"
+        // style={{
+        //   maxWidth: "100%",
+        //   marginLeft: "auto",
+        //   marginRight: "auto",
+        //   paddingLeft: "calc(var(--bs-gutter-x)* .5)",
+        //   paddingRight: "calc(var(--bs-gutter-x)* .5)",
+        // }}
       >
         <div
-          className="row d-flex align-items-center p-3 p-lg-5"
-          style={{ marginBottom: "0" }}
+          className="row d-flex align-items-center p-3 p-lg-5 margin-bottom-0px"
+          // style={{ marginBottom: "0" }}
         >
           <div className="col-12 col-lg-6 text-center">
             <h4 className="color-primary">Connect with phone call</h4>
             <h1
-              className="display-5 fw-bolder color-primary roboto-light"
-              style={{ fontSize: "2rem" }}
+              className="display-5 fw-bolder color-primary roboto-light font-size-2rem"
+              // style={{ fontSize: "2rem" }}
             >
               +91 {getData && getData.number}
             </h1>
@@ -124,8 +124,8 @@ const Section2 = () => {
                 </a>
               </button>
               <button
-                className="contact-button"
-                style={{ backgroundColor: "rgb(37, 211, 102)" }}
+                className="contact-button contact-btn-backgcolor"
+                // style={{ backgroundColor: "rgb(37, 211, 102)" }}
               >
                 <a
                   // href="https://wa.me/+919819508829"

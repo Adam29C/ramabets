@@ -67,9 +67,9 @@ const Pana_Chart = () => {
     <>
       <div id="scroll-up"></div>
       <Navbar />
-      <div className="pt-110" style={{ textAlign: "center" }}>
+      <div className="pt-110  text-align-center-css" >
         <h2>
-          <strong style={{ color: "rgb(51, 51, 51)" }}>
+          <strong className="color-dark-gray">
             {location.state.title}
           </strong>
         </h2>
@@ -80,20 +80,10 @@ const Pana_Chart = () => {
         </p>
       </div>
       <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          margin: "2rem",
-        }}
+     className="andar-bahar-chart-main"
       ></div>
       <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          margin: "2rem",
-        }}
+   className="andar-bahar-chart-main"
       >
         <button
           className=" btn btn-primary rounded-pill btn-scroll"
