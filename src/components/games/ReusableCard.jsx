@@ -109,7 +109,7 @@ const Section4 = ({ GameData, title , showPana }) => {
                                   : showData(data.gameDetails)?.message ===
                                     "Betting is running for open"
                                   ? "#37a148"
-                                  : "#d65f78",
+                                  : "#4BB543",
                             }}
                           >
                             {showData(data.gameDetails)?.message}

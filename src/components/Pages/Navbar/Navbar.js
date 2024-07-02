@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="app-container p-4">
+      <div className="app-container">
         <div className="banner-section ">
           <div className="header-container">
             <nav className="navbar navbar-expand-lg">
