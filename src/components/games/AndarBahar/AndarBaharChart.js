@@ -114,7 +114,7 @@ const Andar_Bahar_Chart = (props) => {
             {location.state.title}&nbsp; Chart
           </strong>
         </h2>
-        <p>
+        <p className="chart_padding_bottom">
           {location.state.title}&nbsp; Pana Chart Satta Matka Record Old History
           Historical Data Bracket Results Chart Online Live Book Digits Numbers
         </p>

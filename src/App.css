@@ -402,6 +402,11 @@ button.navbar-toggler.navbar-toggler-btn:focus {
   justify-content: space-between;
 }
 
+.chart_padding_bottom {
+  margin-bottom: -2rem !important;
+  margin-top: 0;
+}
+
 /* wright new css */
 /* .header-container {
   border: 5px solid black;
@@ -434,7 +439,6 @@ button.navbar-toggler.navbar-toggler-btn:focus {
     display: flex;
   }
 
-  
   .banner-left {
     margin: 2rem 0;
   }

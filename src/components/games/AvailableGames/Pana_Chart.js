@@ -74,7 +74,7 @@ const Pana_Chart = () => {
           </strong>
         </h2>
 
-        <p>
+        <p className="chart_padding_bottom">
           {location.state.title} Pana Chart Satta Matka Record Old History
           Historical Data Bracket Results Chart Online Live Book Digits Numbers
         </p>
