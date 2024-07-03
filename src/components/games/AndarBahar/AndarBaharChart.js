@@ -107,7 +107,7 @@ const Andar_Bahar_Chart = (props) => {
     <>
       <div id="scroll-up"></div>
       <Navbar />
-      <div className="pt-110" style={{ textAlign: "center" }}>
+      <div className="pt-110 mt-5" style={{ textAlign: "center" }}>
         <h2>
           <strong style={{ color: "rgb(51, 51, 51)" }}>
             Shree Jackpot &nbsp;
